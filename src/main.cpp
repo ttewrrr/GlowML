@@ -5,9 +5,13 @@
 #include <converter.h>
 #include <string>
 
-int main () {
+int main(int argc, char* argv[]) {
+    if (argc < 2) {
+        std::cerr << "Usage: " << argv[0] << " <input.glowml>" << std::endl;
+        return 1;
+    }
     std::cout << "GlowML Version: " << GLOWML_VERSION << std::endl;
-    std::string glowml = readFile("example.glowml");
+    std::string glowml = readFile(argv[1]);
     std::string parsed = parseGlowML(glowml);
     std::string converted = convertToHTML(parsed);
     writeFile("output.html", converted);
