@@ -1,2 +1,0 @@
-# GlowML
-GlowML - Web Language
