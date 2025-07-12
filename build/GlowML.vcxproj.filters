@@ -7,6 +7,9 @@
     <ClCompile Include="C:\Users\User\Desktop\GlowML\src\fileio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\GlowML\src\parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\User\Desktop\GlowML\CMakeLists.txt" />

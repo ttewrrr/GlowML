@@ -334,6 +334,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="C:\Users\User\Desktop\GlowML\src\main.cpp" />
     <ClCompile Include="C:\Users\User\Desktop\GlowML\src\fileio.cpp" />
+    <ClCompile Include="C:\Users\User\Desktop\GlowML\src\parser.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
